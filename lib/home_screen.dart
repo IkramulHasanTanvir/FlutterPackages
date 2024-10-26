@@ -9,8 +9,15 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.deepPurple[100],
       body: Center(
-        child: Text('hy Flutter',style: GoogleFonts.actor(textStyle: const TextStyle(fontSize: 44,fontWeight: FontWeight.bold),),)
-      ),
+          child: Text(
+        'hy Flutter',
+        style: GoogleFonts.actor(
+          textStyle: const TextStyle(
+            fontSize: 44,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      )),
     );
   }
 }
