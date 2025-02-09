@@ -76,7 +76,6 @@ class _DraggableWidgetState extends State<DraggableWidget> {
                 child: const Center(
                   child: Text(
                     "Drop Here",
-                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   ),
                 ),
               );
