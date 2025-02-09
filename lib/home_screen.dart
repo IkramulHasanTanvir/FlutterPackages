@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_packages/stepper_widget.dart';
+import 'package:flutter_packages/expansion_tile_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(),
-      body: const StepperWidget(),
+      body: const ExpansionTileWidget(),
     );
   }
 }
