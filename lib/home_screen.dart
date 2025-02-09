@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_packages/custom_long_press_draggable.dart';
+import 'package:flutter_packages/interactive_viewer_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -7,7 +7,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: CustomLongPressDraggable(),
+      body: InteractiveViewerWidget(),
     );
   }
 }
