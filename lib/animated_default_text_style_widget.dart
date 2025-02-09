@@ -31,7 +31,7 @@ class _AnimatedDefaultTextStyleWidgetState extends State<AnimatedDefaultTextStyl
           ElevatedButton(
             onPressed: () {
               setState(() {
-                _isLarge = !_isLarge; // Toggle style
+                _isLarge = !_isLarge;
               });
             },
             child: const Text("Animate Text"),
