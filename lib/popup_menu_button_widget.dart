@@ -18,7 +18,7 @@ class _PopupMenuButtonWidgetState extends State<PopupMenuButtonWidget> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          PopupMenuButton<String>(
+          PopupMenuButton(
             onSelected: (value) {
               setState(() {
                 _selectedOption = value;
