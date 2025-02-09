@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_packages/CupertinoContextMenu_widget.dart';
+import 'package:flutter_packages/table_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(),
-      body: const CupertinoContextMenuWidget(),
+      body: const TableWidget(),
     );
   }
 }
