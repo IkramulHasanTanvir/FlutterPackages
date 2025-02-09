@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_packages/ignore_pointer_widget.dart';
+import 'package:flutter_packages/indexed_stack_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(),
-      body: const IgnorePointerWidget(),
+      body: const IndexedStackWidget(),
     );
   }
 }
